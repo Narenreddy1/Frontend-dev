@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 // API Configuration - Change these endpoints as needed
 const API_CONFIG = {
-  LOGIN_URL: "http://localhost:5000/api/login",
+  LOGIN_URL: "http://localhost:5000/login",
 };
 
 function LoginPage() {
@@ -66,7 +66,7 @@ function LoginPage() {
 
         // Navigate after short delay
         setTimeout(() => {
-          navigate("/patient-registration");
+          navigate("/dashboard");
         }, 500);
       } else {
         setErrorMsg("Invalid response from server");

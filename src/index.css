@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body{
+  background-color: rgb(197, 195, 195);
+}
+
 @layer utilities {
   @keyframes fadeIn {
     from {
