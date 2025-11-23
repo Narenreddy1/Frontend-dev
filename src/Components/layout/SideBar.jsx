@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <aside className="w-55 bg-[#083638] text-white h-screen">
+    <aside className="w-55 bg-[#083638] text-white h-full">
       <div className="bg-white pb-3 pt-3.5 flex justify-center items-center">
         <h1 className="text-gray-800 text-xl font-bold pb-1">
           ASR Hospitals<span className="text-red-500"> ERP</span>

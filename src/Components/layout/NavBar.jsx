@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 const Navbar = ({ toggleSidebar }) => {
   return (
-    <header className="h-[70px] flex items-center justify-between px-6 bg-[#1f6d70] ">
+    <header className=" flex items-center justify-between px-6 bg-[#1f6d70] ">
       {/* <nav className="bg-[#1f6d70] text-white px-1 py-1 flex items-center pl-5 "> */}
       <div className="flex items-center gap-4">
         <button

@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
 
   return (
     
-    <div className="h-screen flex flex-col">
+    <div className="flex flex-col">
      <Navbar toggleSidebar={() => setToggle(!toggle)} />
 
       <div className="flex flex-1">
@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
           </div>
         )}
 
-      <div className="flex flex-1">
+      <div className="flex flex-1 bg-fixed">
         {/* <Sidebar />  */}
 
         <main className="flex-1 p-4 overflow-auto">{children}</main>
