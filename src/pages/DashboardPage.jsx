@@ -15,6 +15,161 @@ const DashboardPage = () => {
           <DashboardCard title="Inventory Items" value="00" />
           <DashboardCard title="Profit" value="₹00" />
         </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <DashboardCard title="Total Sales" value="₹00" />
+          <DashboardCard title="Inventory Items" value="00" />
+          <DashboardCard title="Profit" value="₹00" />
+        </div>
         
       </Layout>
     </>
