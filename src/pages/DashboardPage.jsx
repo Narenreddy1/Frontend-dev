@@ -112,7 +112,7 @@ const DashboardPage = () => {
   return (
     <Layout>
       {/* Header Section */}
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 mt-2 px-2 gap-4 ">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 mt-2 px-2 gap-4">
         <div>
           <h1 className="text-2xl font-bold text-white">
             Dashboard Overview

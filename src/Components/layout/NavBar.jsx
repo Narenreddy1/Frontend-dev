@@ -8,19 +8,9 @@ import {
   FaKeyboard,
   FaPills,
   FaBars,
-  FaSignOutAlt, // Icon for logout
-  FaUserShield, // Icon for Admin
+  FaSignOutAlt, 
+  FaUserShield, 
 } from "react-icons/fa";
-
-// Mock function for logout/redirection
-const handleLogout = () => {
-  // In a real application, this would clear authentication state (e.g., tokens)
-  // and use a router (like react-router-dom) to redirect to the login page.
-  console.log("User logged out. Redirecting to login page...");
-  alert("Logging out and redirecting to login page (mock action).");
-  // Example for actual redirection (if using React Router):
-  // navigate('/login');
-};
 
 const Navbar = ({ toggleSidebar }) => {
   // State to control the visibility of the profile pop-up/dropdown
@@ -29,10 +19,12 @@ const Navbar = ({ toggleSidebar }) => {
   const toggleProfile = () => {
     setIsProfileOpen(!isProfileOpen);
   };
+  console.log(toggleSidebar);
   
   function handleLogout() {
     try {
       localStorage.clear();
+      alert("Logging out and redirecting to login page (mock action).");
     } catch (e) {
       /* ignore */
     }
@@ -40,14 +32,14 @@ const Navbar = ({ toggleSidebar }) => {
   }
 
   return (
-    <header className="w-full flex items-center justify-between px-2 sm:px-6 py-2 bg-[#1f6d70] text-white shadow-lg relative h-13">
+    <header className="w-full flex items-center justify-between px-2 bg-[#1f6d70] text-white shadow-lg relative h-12">
       {/* --- Left Side: Logo and Sidebar Toggle --- */}
       <div className="flex items-center gap-2 sm:gap-4">
         <button
           type="button"
           aria-label="Toggle sidebar"
           title="Toggle sidebar"
-          className="p-2 bg-white/15 hover:bg-white/25 rounded-lg transition-all duration-300 text-white"
+          className="p-2 bg-[#1f6d70] hover:bg-white/25 rounded-lg transition-all duration-300 text-white"
           onClick={() => toggleSidebar && toggleSidebar()}
         >
           <FaBars size={18} />

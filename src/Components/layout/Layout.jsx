@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <div className="h-screen w-screen overflow-hidden flex">
       {/* LEFT SIDEBAR (Fixed Full Height) */}
       <div
-        className={`h-full bg-white shadow-md border-r transition-all duration-300 hidden md:block
+        className={`shadow-md transition-all duration-500
         ${toggle ? "w-55" : "w-0"} overflow-hidden`}
       >
         <div className="h-full overflow-y-auto">
@@ -28,12 +28,12 @@ const Layout = ({ children }) => {
         {/* MAIN CONTENT ROW */}
         <div className="flex flex-1 overflow-hidden">
           {/* MIDDLE DASHBOARD (Independent Scroll) */}
-          <main className="flex-1 overflow-y-auto ml-2 bg-[#1f6d70] bg-[radial-gradient(circle,#0002_1.5px,transparent_1px)] bg-size-[10px_10px]">
+          <main className="flex-1 rounded-lg overflow-y-auto ml-2 bg-[#1f6d70] bg-[radial-gradient(circle,#0002_1.5px,transparent_1px)] bg-size-[10px_10px]">
             {children}
           </main>
 
           {/* RIGHT SIDEBAR (Independent Scroll) */}
-          <div className="bg-white xl:block overflow-y-auto ml-2 hidden md:flex">
+          <div className="bg-white xl:block overflow-y-auto ml-2 hidden md:flex rounded-lg">
             <SideBar2 />
           </div>
         </div>
