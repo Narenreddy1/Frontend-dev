@@ -49,3 +49,29 @@ body{
 * {
   -ms-overflow-style: none; /* IE & Edge */
 }
+
+.half-dotted-bg {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.half-dotted-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: #1f6d70;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.half-dotted-bg > * {
+  position: relative;
+  z-index: 1;
+}

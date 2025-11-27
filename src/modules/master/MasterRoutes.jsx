@@ -1,19 +1,17 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import Layout from "../../Components/layout/Layout";
 import AccountsRoutes from "./accounts/AccountsRoutes";
 
- const MasterRoutes = () => {
+const MasterRoutes = () => {
   return (
-    <Routes>
-      <Route path="accounts/*" element={<AccountsRoutes />} />
-      {/* <Route path="inventory" element={<InventoryMaster />} />
-      <Route path="rate" element={<RateMaster />} />
-      <Route path="discount" element={<DiscountMaster />} />
-      <Route path="other" element={<OtherMaster />} />
-      <Route path="opening-balance" element={<OpeningBalance />} />
-      <Route path="tds" element={<TDS />} />
-      <Route path="currency" element={<Currency />} /> */}
-    </Routes>
+    <Layout showRightSidebar={false}>
+      <Routes>
+        <Route path="accounts/*" element={<AccountsRoutes />} />
+        {/* Future master modules can be added here without duplicating layout */}
+      </Routes>
+    </Layout>
   );
 };
+
 export default MasterRoutes;

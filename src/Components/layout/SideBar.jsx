@@ -71,8 +71,20 @@ const Sidebar = () => {
                   </button>
                   {openAccounts && (
                     <ul className="ml-4 mt-1 space-y-2 text-xs">
-                      <li>
-                        <Link to="/master/accounts/ledger">Ledger</Link>
+                      <li className="flex items-center gap-2">
+                        <Link
+                          to="/master/accounts/ledger"
+                          className="flex-1 hover:text-gray-200"
+                        >
+                          Ledger
+                        </Link>
+                        <Link
+                          to="/master/accounts/ledger/new"
+                          className="bg-[#0b7d75] text-white w-6 h-6 rounded flex items-center justify-center text-sm font-bold hover:bg-[#0d968c]"
+                          title="Create Party"
+                        >
+                          +
+                        </Link>
                       </li>
                       <li>
                         <Link to="/master/accounts/group">Group</Link>

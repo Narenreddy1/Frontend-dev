@@ -3,7 +3,7 @@ import Navbar from "./NavBar";
 import Sidebar from "./SideBar";
 import SideBar2 from "./SideBar2";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, showRightSidebar = true }) => {
   const [toggle, setToggle] = useState(true);
 
   return (
@@ -28,14 +28,20 @@ const Layout = ({ children }) => {
         {/* MAIN CONTENT ROW */}
         <div className="flex flex-1 overflow-hidden">
           {/* MIDDLE DASHBOARD (Independent Scroll) */}
-          <main className="flex-1 rounded-lg overflow-y-auto ml-2 bg-[#1f6d70] bg-[radial-gradient(circle,#0002_1.5px,transparent_1px)] bg-size-[10px_10px]">
+          <main
+            className={`flex-1 rounded-lg overflow-y-auto ${
+              showRightSidebar ? "ml-2" : ""
+            } bg-white half-dotted-bg`}
+          >
             {children}
           </main>
 
           {/* RIGHT SIDEBAR (Independent Scroll) */}
-          <div className="bg-white xl:block overflow-y-auto ml-2 hidden md:flex rounded-lg">
-            <SideBar2 />
-          </div>
+          {showRightSidebar && (
+            <div className="bg-white xl:block overflow-y-auto ml-2 hidden md:flex rounded-lg">
+              <SideBar2 />
+            </div>
+          )}
         </div>
       </div>
     </div>
