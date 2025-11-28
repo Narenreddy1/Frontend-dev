@@ -15,6 +15,7 @@ import {
   FaStore,
   FaChevronUp,
   FaChevronDown,
+  FaPlus,
 } from "react-icons/fa";
 
 const Sidebar = () => {
@@ -28,7 +29,7 @@ const Sidebar = () => {
           🏥ASR Hospitals<span className="text-red-500"> ERP</span>
         </h1>
       </div>
-      
+
       {/* Sidebar Content */}
       <div className="flex justify-start p-3 bg-[#083638]">
         <ul className="space-y-2">
@@ -60,7 +61,7 @@ const Sidebar = () => {
             </button>
             {/* Account Master component Starts here */}
             {openMaster && (
-              <ul className="ml-8 mt-1 space-y-2 text-sm">
+              <ul className="ml-8 mt-1 space-y-2 text-sm hidden-auto">
                 <li>
                   <button
                     onClick={() => setOpenAccounts(!openAccounts)}
@@ -71,29 +72,44 @@ const Sidebar = () => {
                   </button>
                   {openAccounts && (
                     <ul className="ml-4 mt-1 space-y-2 text-xs">
-                      <li className="flex items-center gap-2">
+                      <li className="flex items-center gap-1">
                         <Link
                           to="/master/accounts/ledger"
-                          className="flex-1 hover:text-gray-200"
+                          className="flex-1 hover:bg-[#1a4f51] rounded transition duration-150 hover:text-xs py-1"
                         >
                           Ledger
                         </Link>
                         <Link
                           to="/master/accounts/ledger/new"
-                          className="bg-[#0b7d75] text-white w-6 h-6 rounded flex items-center justify-center text-sm font-bold hover:bg-[#0d968c]"
+                          className=" text-white w-6 h-6 rounded flex items-center justify-center hover:bg-[#1a4f51]"
                           title="Create Party"
                         >
-                          +
+                          <FaPlus />
                         </Link>
                       </li>
-                      <li>
-                        <Link to="/master/accounts/group">Group</Link>
+                      <li className="flex items-center gap-1">
+                        <Link
+                          to="/master/accounts/group"
+                          className="flex-1 hover:bg-[#1a4f51] rounded transition duration-150 hover:text-xs py-0.5"
+                        >
+                          Group
+                        </Link>
                       </li>
-                      <li>
-                        <Link to="/master/accounts/sale">Sale</Link>
+                      <li className="flex items-center gap-1">
+                        <Link
+                          to="/master/accounts/sale"
+                          className="flex-1 hover:bg-[#1a4f51] rounded transition duration-150 hover:text-xs py-0.5"
+                        >
+                          Sale
+                        </Link>
                       </li>
-                      <li>
-                        <Link to="/master/accounts/purchase">Purchase</Link>
+                      <li className="flex items-center gap-1">
+                        <Link
+                          to="/master/accounts/purchase"
+                          className="flex-1 hover:bg-[#1a4f51] rounded transition duration-150 hover:text-xs py-0.5"
+                        >
+                          Purchase
+                        </Link>
                       </li>
                     </ul>
                   )}

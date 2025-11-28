@@ -127,14 +127,14 @@ const Navbar = ({ toggleSidebar }) => {
           {isProfileOpen && (
             <div className="absolute right-0 mt-3 w-48 bg-white rounded-lg shadow-xl overflow-hidden z-20">
               <div className="p-4 border-b">
-                <p className="text-gray-800 font-semibold">User Name</p>
-                <p className="text-sm text-gray-500">user@hospital.com</p>
+                <p className="text-gray-800 font-semibold">Dr Reddy</p>
+                <p className="text-sm text-gray-500">asr@hospital.com</p>
               </div>
               <a
                 href="#"
                 className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-150"
                 onClick={() => {
-                  console.log("Navigating to Admin Panel (mock action).");
+                  //console.log("Navigating to Admin Panel (mock action).");
                   setIsProfileOpen(false); // Close dropdown after click
                 }}
               >
